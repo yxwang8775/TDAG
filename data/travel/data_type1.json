@@ -1,0 +1,3074 @@
+[
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Shanghai finally.\n2. 5 days (2023-07-03 00:00 ~ 2023-07-08 00:00) for this trip.\n3. Play at least 1 day in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-08 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 200.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 65,
+                "money_max": 128
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Chengdu']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 7 days (2023-07-08 00:00 ~ 2023-07-15 00:00) for this trip.\n3. Play at least 2 days in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 582,
+                "money_max": 1078
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Chengdu']. The order doesn't matter and he needs to return to Beijing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1800.0 CNY.\n3. Play at least 1 day in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 225206,
+                "time_max": 278073
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Beijing']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1000.0 CNY.\n3. Play at least 3 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 405820,
+                "time_max": 428131
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Beijing']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 5 days (2023-07-02 00:00 ~ 2023-07-07 00:00) for this trip.\n3. Play at least 2 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-07 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 1000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 671,
+                "money_max": 1012
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 5 days (2023-07-05 00:00 ~ 2023-07-10 00:00) for this trip.\n3. Play at least 1 day in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-10 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 300.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 139,
+                "money_max": 221
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Beijing']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1000.0 CNY.\n3. Play at least 3 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 1000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 398934,
+                "time_max": 505145
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Shanghai']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 200.0 CNY.\n3. Play at least 2 days in Shanghai.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-10 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 300012,
+                "time_max": 314723
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Beijing', 'Chengdu']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 10 days (2023-07-04 00:00 ~ 2023-07-14 00:00) for this trip.\n3. Play at least 3 days in Beijing, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-14 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1257,
+                "money_max": 2087
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Wuhan', 'Guangzhou']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 9 days (2023-07-10 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 1 day in Wuhan, 3 days in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 1400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 848,
+                "money_max": 1341
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 700.0 CNY.\n3. Play at least 1 day in Wuhan, 2 days in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-11 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 700.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 477502,
+                "time_max": 551761
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou', 'Chengdu']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2000.0 CNY.\n3. Play at least 3 days in Hangzhou, 1 day in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-14 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 617412,
+                "time_max": 670703
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Shanghai']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 11 days (2023-07-07 00:00 ~ 2023-07-18 00:00) for this trip.\n3. Play at least 2 days in Nanjing, 3 days in Shanghai.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-18 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 700.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 575,
+                "money_max": 680
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 8 days (2023-07-08 00:00 ~ 2023-07-16 00:00) for this trip.\n3. Play at least 1 day in Nanjing, 1 day in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 910,
+                "money_max": 1650
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Beijing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2300.0 CNY.\n3. Play at least 2 days in Nanjing, 1 day in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-11 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2300.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 481240,
+                "time_max": 631975
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Shanghai', 'Wuhan']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 800.0 CNY.\n3. Play at least 3 days in Shanghai, 1 day in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 800.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 559923,
+                "time_max": 590900
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou', 'Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 14 days (2023-07-09 00:00 ~ 2023-07-23 00:00) for this trip.\n3. Play at least 3 days in Hangzhou, 2 days in Shanghai, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-23 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1235,
+                "money_max": 2057
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou', 'Wuhan', 'Beijing']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 13 days (2023-07-10 00:00 ~ 2023-07-23 00:00) for this trip.\n3. Play at least 2 days in Hangzhou, 3 days in Wuhan, 3 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-23 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 1600.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1030,
+                "money_max": 1266
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Chengdu', 'Beijing', 'Wuhan']. The order doesn't matter and he needs to return to Shanghai finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2500.0 CNY.\n3. Play at least 2 days in Chengdu, 3 days in Beijing, 3 days in Wuhan.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-23 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 2500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1008280,
+                "time_max": 1086415
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Guangzhou', 'Beijing', 'Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 3300.0 CNY.\n3. Play at least 3 days in Guangzhou, 3 days in Beijing, 3 days in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 3300.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1211356,
+                "time_max": 1354243
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Wuhan', 'Shanghai', 'Nanjing']. The order doesn't matter and he needs to return to Beijing finally.\n2. 12 days (2023-07-10 00:00 ~ 2023-07-22 00:00) for this trip.\n3. Play at least 3 days in Wuhan, 3 days in Shanghai, 1 day in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-22 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 1400.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1009,
+                "money_max": 1447
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Shanghai', 'Guangzhou', 'Nanjing']. The order doesn't matter and he needs to return to Beijing finally.\n2. 9 days (2023-07-10 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 1 day in Shanghai, 1 day in Guangzhou, 1 day in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 2200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1465,
+                "money_max": 2243
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Chengdu', 'Wuhan', 'Beijing']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2000.0 CNY.\n3. Play at least 1 day in Chengdu, 2 days in Wuhan, 2 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 767584,
+                "time_max": 852307
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Shanghai', 'Hangzhou', 'Chengdu']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1600.0 CNY.\n3. Play at least 1 day in Shanghai, 1 day in Hangzhou, 1 day in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1600.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 659906,
+                "time_max": 739917
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou', 'Shanghai', 'Wuhan', 'Chengdu']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 15 days (2023-07-11 00:00 ~ 2023-07-26 00:00) for this trip.\n3. Play at least 1 day in Hangzhou, 3 days in Shanghai, 3 days in Wuhan, 1 day in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-11 00:00",
+                "end_time": "2023-07-26 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 2300.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1138,
+                "money_max": 2178
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Wuhan', 'Chengdu', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 13 days (2023-07-06 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 3 days in Nanjing, 2 days in Wuhan, 1 day in Chengdu, 1 day in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 2051,
+                "money_max": 2784
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Beijing', 'Guangzhou', 'Nanjing', 'Shanghai']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1900.0 CNY.\n3. Play at least 2 days in Beijing, 3 days in Guangzhou, 2 days in Nanjing, 1 day in Shanghai.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1103929,
+                "time_max": 1217842
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Chengdu', 'Shanghai', 'Guangzhou', 'Beijing']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 4000.0 CNY.\n3. Play at least 1 day in Chengdu, 3 days in Shanghai, 3 days in Guangzhou, 2 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-22 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 4000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1305745,
+                "time_max": 1506586
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Chengdu', 'Guangzhou', 'Wuhan']. The order doesn't matter and he needs to return to Beijing finally.\n2. 15 days (2023-07-02 00:00 ~ 2023-07-17 00:00) for this trip.\n3. Play at least 1 day in Nanjing, 2 days in Chengdu, 3 days in Guangzhou, 2 days in Wuhan.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-17 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 2300.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1713,
+                "money_max": 2611
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Nanjing', 'Beijing', 'Chengdu', 'Guangzhou']. The order doesn't matter and he needs to return to Shanghai finally.\n2. 17 days (2023-07-03 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 3 days in Nanjing, 3 days in Beijing, 2 days in Chengdu, 3 days in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 3400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1616,
+                "money_max": 3346
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Hangzhou', 'Shanghai', 'Guangzhou', 'Wuhan']. The order doesn't matter and he needs to return to Beijing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1900.0 CNY.\n3. Play at least 3 days in Hangzhou, 3 days in Shanghai, 2 days in Guangzhou, 2 days in Wuhan.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 1900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1292117,
+                "time_max": 1442106
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.The demands are as follows:\n1. visit ['Shanghai', 'Hangzhou', 'Chengdu', 'Wuhan']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2000.0 CNY.\n3. Play at least 3 days in Shanghai, 3 days in Hangzhou, 1 day in Chengdu, 2 days in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-23 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1281408,
+                "time_max": 1496939
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 4 days (2023-07-07 00:00 ~ 2023-07-11 00:00) for this trip.\n3. Play at least 1 day in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-11 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 525,
+                "money_max": 1116
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Wuhan']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 7 days (2023-07-06 00:00 ~ 2023-07-13 00:00) for this trip.\n3. Play at least 3 days in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 500.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 400,
+                "money_max": 401
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1200.0 CNY.\n3. Play at least 3 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-12 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 1200.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 400694,
+                "time_max": 428157
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1700.0 CNY.\n3. Play at least 3 days in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 1700.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 473810,
+                "time_max": 518853
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 5 days (2023-07-02 00:00 ~ 2023-07-07 00:00) for this trip.\n3. Play at least 2 days in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-07 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 412,
+                "money_max": 1023
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 6 days (2023-07-10 00:00 ~ 2023-07-16 00:00) for this trip.\n3. Play at least 2 days in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 376,
+                "money_max": 939
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 200.0 CNY.\n3. Play at least 1 day in Shanghai.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-06 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 200.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 211563,
+                "time_max": 233420
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1400.0 CNY.\n3. Play at least 1 day in Shanghai.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 212091,
+                "time_max": 260240
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 11 days (2023-07-07 00:00 ~ 2023-07-18 00:00) for this trip.\n3. Play at least 2 days in Shanghai, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-18 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2100.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1318,
+                "money_max": 1979
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 11 days (2023-07-10 00:00 ~ 2023-07-21 00:00) for this trip.\n3. Play at least 3 days in Shanghai, 3 days in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-21 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1531,
+                "money_max": 2266
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Wuhan']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1600.0 CNY.\n3. Play at least 2 days in Hangzhou, 3 days in Wuhan.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1600.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 629879,
+                "time_max": 820860
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1600.0 CNY.\n3. Play at least 2 days in Nanjing, 3 days in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 1600.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 702058,
+                "time_max": 843553
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 10 days (2023-07-10 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 2 days in Guangzhou, 2 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2600.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 740,
+                "money_max": 1720
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Guangzhou']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 9 days (2023-07-10 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 3 days in Chengdu, 1 day in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1090,
+                "money_max": 2024
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Beijing']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1300.0 CNY.\n3. Play at least 2 days in Hangzhou, 3 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-14 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 1300.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 655795,
+                "time_max": 776344
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Hangzhou']. The order doesn't matter and he needs to return to Beijing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1800.0 CNY.\n3. Play at least 1 day in Guangzhou, 3 days in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-18 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 628003,
+                "time_max": 742876
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Shanghai', 'Nanjing']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 11 days (2023-07-02 00:00 ~ 2023-07-13 00:00) for this trip.\n3. Play at least 1 day in Guangzhou, 2 days in Shanghai, 3 days in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 798,
+                "money_max": 1607
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Wuhan', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 8 days (2023-07-02 00:00 ~ 2023-07-10 00:00) for this trip.\n3. Play at least 1 day in Shanghai, 1 day in Wuhan, 1 day in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-10 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1900.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1684,
+                "money_max": 2283
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Shanghai', 'Hangzhou']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1900.0 CNY.\n3. Play at least 3 days in Nanjing, 1 day in Shanghai, 2 days in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 824697,
+                "time_max": 930254
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Hangzhou', 'Beijing']. The order doesn't matter and he needs to return to Shanghai finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2900.0 CNY.\n3. Play at least 2 days in Guangzhou, 2 days in Hangzhou, 2 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-17 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 2900.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 892195,
+                "time_max": 1014988
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 12 days (2023-07-07 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 1 day in Nanjing, 1 day in Shanghai, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1245,
+                "money_max": 1782
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Wuhan', 'Chengdu']. The order doesn't matter and he needs to return to Beijing finally.\n2. 12 days (2023-07-07 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 2 days in Hangzhou, 3 days in Wuhan, 2 days in Chengdu.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 2200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1568,
+                "money_max": 2407
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Chengdu', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2800.0 CNY.\n3. Play at least 3 days in Hangzhou, 3 days in Chengdu, 1 day in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1018096,
+                "time_max": 1138603
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Beijing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1500.0 CNY.\n3. Play at least 1 day in Shanghai, 2 days in Wuhan, 3 days in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-21 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 1500.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 825212,
+                "time_max": 852735
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Wuhan', 'Guangzhou', 'Nanjing']. The order doesn't matter and he needs to return to Shanghai finally.\n2. 16 days (2023-07-04 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 3 days in Hangzhou, 2 days in Wuhan, 2 days in Guangzhou, 3 days in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 1200.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 977,
+                "money_max": 1674
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Beijing', 'Nanjing', 'Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 10 days (2023-07-10 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 1 day in Shanghai, 1 day in Beijing, 1 day in Nanjing, 1 day in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 3400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1432,
+                "money_max": 2467
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Beijing', 'Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2900.0 CNY.\n3. Play at least 2 days in Hangzhou, 3 days in Beijing, 3 days in Wuhan, 1 day in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1190209,
+                "time_max": 1315882
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Beijing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Nanjing', 'Wuhan', 'Hangzhou']. The order doesn't matter and he needs to return to Beijing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2400.0 CNY.\n3. Play at least 1 day in Guangzhou, 3 days in Nanjing, 2 days in Wuhan, 1 day in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Beijing",
+                "origin_place": null,
+                "budget": 2400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1030816,
+                "time_max": 1226923
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Chengdu', 'Nanjing', 'Hangzhou']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 14 days (2023-07-06 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 1 day in Beijing, 3 days in Chengdu, 3 days in Nanjing, 1 day in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1661,
+                "money_max": 2127
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Wuhan', 'Chengdu', 'Shanghai', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 17 days (2023-07-04 00:00 ~ 2023-07-21 00:00) for this trip.\n3. Play at least 3 days in Wuhan, 2 days in Chengdu, 2 days in Shanghai, 3 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-21 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 4200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 2092,
+                "money_max": 3026
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Chengdu', 'Shanghai', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 3500.0 CNY.\n3. Play at least 1 day in Nanjing, 3 days in Chengdu, 3 days in Shanghai, 2 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 3500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1234349,
+                "time_max": 1360902
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Hangzhou', 'Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2900.0 CNY.\n3. Play at least 2 days in Chengdu, 3 days in Hangzhou, 2 days in Wuhan, 2 days in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2900.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1181251,
+                "time_max": 1348480
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 7 days (2023-07-03 00:00 ~ 2023-07-10 00:00) for this trip.\n3. Play at least 3 days in Guangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-10 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 1500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 778,
+                "money_max": 1227
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Wuhan']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 6 days (2023-07-03 00:00 ~ 2023-07-09 00:00) for this trip.\n3. Play at least 3 days in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-09 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 500.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 400,
+                "money_max": 401
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Shanghai finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 200.0 CNY.\n3. Play at least 1 day in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-08 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 200.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 245523,
+                "time_max": 253160
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Wuhan']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 500.0 CNY.\n3. Play at least 3 days in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-10 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 500.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 370214,
+                "time_max": 463257
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 8 days (2023-07-07 00:00 ~ 2023-07-15 00:00) for this trip.\n3. Play at least 3 days in Shanghai.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1900.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1532,
+                "money_max": 1837
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Shanghai finally.\n2. 5 days (2023-07-04 00:00 ~ 2023-07-09 00:00) for this trip.\n3. Play at least 2 days in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-09 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 200.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 73,
+                "money_max": 129
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1100.0 CNY.\n3. Play at least 1 day in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-10 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 1100.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 233479,
+                "time_max": 250516
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou']. The order doesn't matter and he needs to return to Nanjing finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 300.0 CNY.\n3. Play at least 2 days in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-09 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 300.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 292475,
+                "time_max": 331608
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 11 days (2023-07-04 00:00 ~ 2023-07-15 00:00) for this trip.\n3. Play at least 2 days in Shanghai, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 2000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1286,
+                "money_max": 1868
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Beijing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 11 days (2023-07-04 00:00 ~ 2023-07-15 00:00) for this trip.\n3. Play at least 3 days in Nanjing, 2 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2300.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1365,
+                "money_max": 1989
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2600.0 CNY.\n3. Play at least 2 days in Beijing, 2 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-08 00:00",
+                "end_time": "2023-07-17 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2600.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 678176,
+                "time_max": 766527
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Wuhan']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1500.0 CNY.\n3. Play at least 3 days in Nanjing, 1 day in Wuhan.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1500.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 553189,
+                "time_max": 642214
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Chengdu']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. 11 days (2023-07-02 00:00 ~ 2023-07-13 00:00) for this trip.\n3. Play at least 3 days in Shanghai, 2 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-02 00:00",
+                "end_time": "2023-07-13 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1306,
+                "money_max": 1991
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Hangzhou', 'Nanjing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 9 days (2023-07-03 00:00 ~ 2023-07-12 00:00) for this trip.\n3. Play at least 2 days in Hangzhou, 3 days in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-12 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1300.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 820,
+                "money_max": 1646
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Nanjing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1600.0 CNY.\n3. Play at least 3 days in Shanghai, 3 days in Nanjing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1600.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 762738,
+                "time_max": 837281
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Wuhan', 'Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1800.0 CNY.\n3. Play at least 1 day in Wuhan, 2 days in Hangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-11 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 499917,
+                "time_max": 625706
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Hangzhou', 'Chengdu']. The order doesn't matter and he needs to return to Shanghai finally.\n2. 14 days (2023-07-04 00:00 ~ 2023-07-18 00:00) for this trip.\n3. Play at least 2 days in Beijing, 2 days in Hangzhou, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-18 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 3400.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1732,
+                "money_max": 2376
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Nanjing and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Shanghai', 'Beijing', 'Guangzhou']. The order doesn't matter and he needs to return to Nanjing finally.\n2. 13 days (2023-07-03 00:00 ~ 2023-07-16 00:00) for this trip.\n3. Play at least 1 day in Shanghai, 2 days in Beijing, 3 days in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-03 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Nanjing",
+                "origin_place": null,
+                "budget": 2900.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1386,
+                "money_max": 2293
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Shanghai",
+                        "days": 1
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Wuhan', 'Hangzhou']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1800.0 CNY.\n3. Play at least 2 days in Beijing, 1 day in Wuhan, 2 days in Hangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-15 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 764930,
+                "time_max": 878541
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Shanghai and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Shanghai finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2100.0 CNY.\n3. Play at least 3 days in Chengdu, 2 days in Wuhan, 1 day in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-17 00:00",
+                "origin_city": "Shanghai",
+                "origin_place": null,
+                "budget": 2100.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 850135,
+                "time_max": 961228
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Guangzhou', 'Wuhan']. The order doesn't matter and he needs to return to Chengdu finally.\n2. 14 days (2023-07-05 00:00 ~ 2023-07-19 00:00) for this trip.\n3. Play at least 3 days in Beijing, 2 days in Guangzhou, 3 days in Wuhan.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 3300.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1573,
+                "money_max": 2313
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Nanjing', 'Shanghai']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 15 days (2023-07-06 00:00 ~ 2023-07-21 00:00) for this trip.\n3. Play at least 2 days in Chengdu, 3 days in Nanjing, 3 days in Shanghai.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-21 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1700.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1333,
+                "money_max": 2521
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Wuhan', 'Chengdu']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 1800.0 CNY.\n3. Play at least 3 days in Nanjing, 1 day in Wuhan, 3 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-19 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 1800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 964771,
+                "time_max": 1098676
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Hangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Beijing', 'Guangzhou']. The order doesn't matter and he needs to return to Hangzhou finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2600.0 CNY.\n3. Play at least 1 day in Nanjing, 1 day in Beijing, 2 days in Guangzhou.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-16 00:00",
+                "origin_city": "Hangzhou",
+                "origin_place": null,
+                "budget": 2600.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 751543,
+                "time_max": 828532
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Wuhan', 'Nanjing', 'Chengdu']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 13 days (2023-07-07 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 2 days in Beijing, 1 day in Wuhan, 2 days in Nanjing, 2 days in Chengdu.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 3000.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1871,
+                "money_max": 2742
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Shanghai', 'Wuhan', 'Nanjing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 12 days (2023-07-09 00:00 ~ 2023-07-21 00:00) for this trip.\n3. Play at least 2 days in Chengdu, 2 days in Shanghai, 1 day in Wuhan, 1 day in Nanjing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-09 00:00",
+                "end_time": "2023-07-21 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2400.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1675,
+                "money_max": 2320
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 1
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Chengdu', 'Guangzhou', 'Beijing']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2800.0 CNY.\n3. Play at least 2 days in Nanjing, 2 days in Chengdu, 2 days in Guangzhou, 2 days in Beijing.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-06 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 2800.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1212186,
+                "time_max": 1380305
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Chengdu and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Guangzhou', 'Shanghai', 'Wuhan', 'Beijing']. The order doesn't matter and he needs to return to Chengdu finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2600.0 CNY.\n3. Play at least 3 days in Guangzhou, 3 days in Shanghai, 2 days in Wuhan, 1 day in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-24 00:00",
+                "origin_city": "Chengdu",
+                "origin_place": null,
+                "budget": 2600.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1238444,
+                "time_max": 1383171
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 3
+                    },
+                    {
+                        "city": "Wuhan",
+                        "days": 2
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Chengdu', 'Nanjing', 'Shanghai', 'Guangzhou']. The order doesn't matter and he needs to return to Wuhan finally.\n2. 12 days (2023-07-05 00:00 ~ 2023-07-17 00:00) for this trip.\n3. Play at least 2 days in Chengdu, 1 day in Nanjing, 2 days in Shanghai, 1 day in Guangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-05 00:00",
+                "end_time": "2023-07-17 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 2500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "money",
+                "money_min": 1281,
+                "money_max": 2597
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 1
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Guangzhou and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Shanghai', 'Hangzhou', 'Beijing']. The order doesn't matter and he needs to return to Guangzhou finally.\n2. 16 days (2023-07-04 00:00 ~ 2023-07-20 00:00) for this trip.\n3. Play at least 2 days in Nanjing, 2 days in Shanghai, 3 days in Hangzhou, 3 days in Beijing.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the time limit), spend as little money as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-04 00:00",
+                "end_time": "2023-07-20 00:00",
+                "origin_city": "Guangzhou",
+                "origin_place": null,
+                "budget": 2100.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "money",
+                "money_min": 1190,
+                "money_max": 2193
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 3
+                    },
+                    {
+                        "city": "Beijing",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Beijing', 'Chengdu', 'Nanjing', 'Guangzhou']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 3500.0 CNY.\n3. Play at least 1 day in Beijing, 2 days in Chengdu, 3 days in Nanjing, 3 days in Guangzhou.\n4. Stay in any city for a minimum of 24 hours to count as one day.\n5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-22 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 3500.0,
+                "check_opening_hours": false,
+                "one_day": 0,
+                "limit": "time",
+                "time_min": 1300832,
+                "time_max": 1456491
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Beijing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Nanjing",
+                        "days": 3
+                    },
+                    {
+                        "city": "Guangzhou",
+                        "days": 3
+                    }
+                ]
+            }
+        },
+        "type": 1
+    },
+    {
+        "question": "Bob is in Wuhan and going to travel in several cities, please make a ticket purchase plan and travel sequence for him.    The demands are as follows:\n1. visit ['Nanjing', 'Hangzhou', 'Chengdu', 'Shanghai']. The order doesn't matter and he needs to return to Wuhan finally.\n2. He is free to travel from 2023.7.1 to 2023.7.20. The budget for transportation is 2700.0 CNY.\n3. Play at least 1 day in Nanjing, 2 days in Hangzhou, 2 days in Chengdu, 2 days in Shanghai.\n4. If you arrive in a city before 12:00 noon, that day can be counted as a day of play. If it's past 12 o'clock, it doesn't count as a day.5. On the basis of completing the above conditions (especially the budget), spend as little time as possible.",
+        "demands": {
+            "TravelSimulator": {
+                "begin_time": "2023-07-07 00:00",
+                "end_time": "2023-07-22 00:00",
+                "origin_city": "Wuhan",
+                "origin_place": null,
+                "budget": 2700.0,
+                "check_opening_hours": false,
+                "one_day": 1,
+                "limit": "time",
+                "time_min": 1000065,
+                "time_max": 1171634
+            },
+            "Constraints": {
+                "CityDurationConstraint": [
+                    {
+                        "city": "Nanjing",
+                        "days": 1
+                    },
+                    {
+                        "city": "Hangzhou",
+                        "days": 2
+                    },
+                    {
+                        "city": "Chengdu",
+                        "days": 2
+                    },
+                    {
+                        "city": "Shanghai",
+                        "days": 2
+                    }
+                ]
+            }
+        },
+        "type": 1
+    }
+]

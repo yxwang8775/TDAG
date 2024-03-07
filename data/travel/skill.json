@@ -1,0 +1,22 @@
+[
+    {
+        "task_name": "Find available train tickets",
+        "task_detail": "Find available train tickets",
+        "solution": "We can obtain some information in the database. The origin, destination, departure time, arrival time and price should be taken into consideration. In order to stay in a certain city for a certain period of time, pay attention to the time you arrive in the city and the time you leave the city."
+    },
+    {
+        "task_name": "Find Wuhan-Beijing Transportation",
+        "task_detail": "Find Wuhan-Beijing Transportation",
+        "solution": "We can obtain some information in the database. The origin, destination, departure time, arrival time and price should be taken into consideration."
+    },
+    {
+        "task_name": "Determine the order of cities",
+        "task_detail": "Determine the order of cities",
+        "solution": "There are 3 cities to visit(Bejing, Shanghai, Hangzhou) and Bob is in Guangzhou now. Based on the location and distance between cities(the distance may be inferred based on the train information in the database), we can choose to go to Shanghai, Hangzhou and Beijing in order, and finally return to Guangzhou"
+    },
+    {
+        "task_name": "Create a detailed travel and visit plan in Wuhan",
+        "task_detail": "{'subtask_name': 'Create a detailed travel and visit plan in Wuhan', 'goal': \"Create a detailed travel and visit plan for Bob in Wuhan, including travel to and from 'Yellow Crane Tower', 'Tan Hua Lin' and 'Baotong Temple', as well as the duration of each visit.\",\"result_format\": 'A schedule consisting with multiple <plan>go_to_place(origin,destination,departure_time,arrival_time)</plan> and <plan>visit(place,begin_time,end_time)</plan>.1.go_to_place(origin:str,destination:str,departure_time,arrival_time): go to destination from origin. depart at departure_time and arrive at arrival_time.\n2.visit(place:str,begin_time,end_time): visit somewhere from begin_time to end_time. You have to go somewhere before you can visit it.\n'}",
+        "solution": "Based on the completed subtasks, we know Bob starts from Wuhan Railway Hotel at 2023-07-06 7:00, and he need to visit Yellow Crane Tower for 180 minutes, Tan Hua Lin for 180 minutes, Baotong Temple for 120 minutes. For efficiency, he doesn't have to start from the hotel every time. He should first go to Yellow Crane Tower from Wuhan Railway Hotel and then visit Yellow Crane Tower, go to Tan Hua Lin from Yellow Crane Tower and then visit Tan Hua Lin, ... \nWe should first use <action>execute_sql('''SELECT origin, destination, duration FROM in_city_transport\nWHERE origin in ('Wuhan Railway Hotel','Yellow Crane Tower','Tan Hua Lin', 'Baotong Temple') OR destination in ('Wuhan Railway Hotel','Yellow Crane Tower','Tan Hua Lin', 'Baotong Temple')''') to get traffic duration, and know that it takes 72 min from Wuhan Railway Hotel to Yellow Crane Tower, 55 min from Yellow Crane Tower to Tan Hua Lin, 47 min from Tan Hua Lin to Baotong Temple, etc.\nThen we need to arrange go_to_place() and visit(). If necessary, we can use execute_python to do the calculations and check the output of the code.\nThe final result could be as follows:\n1. Go to Yellow Crane Tower from Wuhan Railway Hotel. The departure_time is \"2023-07-06 7:00\" and the arrival time is \"2023-07-06 7:00\" + 72 min = \"2023-07-06 8:12\", which can be formatted as <plan>go_to_place(\"Wuhan Railway Hotel\", \"Yellow Crane Tower\", \"2023-07-06 7:00\", \"2023-07-06 8:12\")\"</plan>\n2. Visit Yellow Crane Tower from 8:12 to 11:12: <plan>visit(\"Yellow Crane Tower\", \"2023-07-06 8:12\", \"2023-07-06 11:12\")</plan>\nThen he may have lunch and rest until 14:00.\n3. Go to Tan Hua Lin from Yellow Crane Tower, depart at 14:00 and arrive at 14:00 + 55 min = 14:55. <plan>go_to_place(\"Yellow Crane Tower\", \"Tan Hua Lin\", \"2023-07-06 14:00\", \"2023-07-06 14:55\")</plan>\n4. <plan>visit(\"Tan Hua Lin\", \"2023-07-06 14:55\", \"2023-07-06 17:55\"), etc.\nFinally we can call <action>\"over()\"</action>\"\n"
+    }
+]
