@@ -19,9 +19,8 @@ from agents.verify_agent.agent import VerifyAgent
 from agents.update_agent.agent import UpdateAgent
 
 config_manager = ConfigManager()
-os.environ['OPENAI_API_KEY'] = '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'
-proxy = 'http://127.0.0.1:10809'
-# proxy = None
+os.environ['OPENAI_API_KEY'] = None
+# proxy = 'http://127.0.0.1:10809'
 from utils.api_service import set_keys
 
 max_error_times = 3
