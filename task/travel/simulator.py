@@ -84,20 +84,15 @@ def get_opening_hours(spot):
 
 def parse_datetime(datetime_str):
     try:
-        # 首先尝试标准格式
         return datetime.strptime(datetime_str, "%Y-%m-%d %H:%M")
     except ValueError:
-        # 分割日期和时间部分
         date_part, time_part = datetime_str.split(' ')
         hours, minutes = map(int, time_part.split(':')[:2])
 
-        # 调整时间
         adjusted_time = timedelta(hours=hours, minutes=minutes)
 
-        # 创建新的时间字符串，确保格式为 "YYYY-MM-DD HH:MM"
         new_time_str = date_part + ' ' + (datetime.min + adjusted_time).strftime("%H:%M")
 
-        # 尝试解析新的时间字符串
         return datetime.strptime(new_time_str, "%Y-%m-%d %H:%M")
 
 

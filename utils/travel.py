@@ -55,23 +55,18 @@ def execute_python(code: str):
 def is_error(observation: str) -> bool:
     try:
         obs_json = json.loads(observation)
-        # 检查是否有 'error' 键，且对应的值不是空字符串
         return 'error' in obs_json and obs_json['error'] != ""
     except json.JSONDecodeError:
-        # 如果无法解析为 JSON，返回 False
-        # print(f'value error in is_error')
         return False
 
 import re
 from datetime import datetime
 
 def check_plan_format(input_str):
-    # 正则表达式匹配所有的 <plan> 标签
     matches = re.findall(r'<plan>(\w+)\((.*?)\)</plan>', input_str)
     if not matches:
         return "No valid plan format found. Surround the plan in <plan> and </plan>"
 
-    # 定义格式要求
     format_requirements = {
         'stay_in': ['str', 'time', 'time'],
         'visit': ['str', 'time', 'time'],

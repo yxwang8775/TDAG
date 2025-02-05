@@ -16,9 +16,9 @@ from api.ppt.ppt import router as ppt_router
 from api.shell.shell import router as shell_router
 from api.database.database import router as db_router
 from api.wolfram_alpha.wolfram_alpha import router as wa_router
-from api.weather.weather import router as weather_router  # 新增这一行
+from api.weather.weather import router as weather_router  
 from api.google_calendar.calendar_service import router as calendar_router
-from api.gmail.gmail import router as gmail_router  # 新增这一行
+from api.gmail.gmail import router as gmail_router  
 
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
